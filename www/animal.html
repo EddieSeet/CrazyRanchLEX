@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Crazy Ranch</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Link to Css file-->
+    <link rel="stylesheet" type='text/css' href="style.css">
+
+    <!--js script
+    <script src='js/jquery-1.6.1.min.js'></script>
+    <script src="js/modernizr.custom.62074.js"></script>
+    <script src='js/respond.min.js'></script> -->
+    <script src="script.js"></script>
+  
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="land.html">Home</a>
+          <a href="aboutus.html">About us</a>  
+        <a href="fermentation.html">Fermentation</a>
+        <a href="plants.html">Plants</a>
+        <a href="animal.html">Animal</a>
+        <a href="Quizz.html">Quizz</a>
+        <a href="contactus.html">Contact us</a>
+</div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+    <!-- form-->
+    <article id="contentstart">
+        <div class="container">
+            <h2> All about our cows</h2>
+            <p> We provide certified organic milk to all our consumers. The cows are not injected with any hormones or
+            chemicals to increase their milk production. The cows are also given natural food to ensure that they are healthy
+            and organic so that the milk produced for the consumers are safe for consumption </p>
+            <img id ="cowpic1" border="0" alt="cow" src="image/DSC_0078.JPG" width="100" height="100">
+
+            <h2> All about our chickens</h2>
+            <p>
+                The chickens in our ranch roam naturally in outdoors. We provides both chicken and egg to our consumers.
+                <img id ="plant1" border="0" alt="plants" src="image/DSC_0847.JPG" width="100" height="100">
+
+            </p>
+            <h2>All about our sheep</h2>
+            <p>we also have sheeps in our ranch. These sheeps are ...</p> w
+            <img id ="plant1" border="0" alt="plants" src="image/DSC_0096.JPG" width="100" height="100">
+
+        </div>
+    </article>
+</body>
+</html>

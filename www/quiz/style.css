@@ -1,0 +1,42 @@
+﻿
+#loginPicture {
+    padding-left: 30%;
+    width: 20%;
+    padding-right: 30%;
+}
+
+#Q1A1, #Q1A3 {
+    font-family: "Verdana", San-serif;
+    background-color: black;
+    color: white;
+    display: block;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+#Q1A2, #Q1A4 {
+    font-family: "Verdana", San-serif;
+    background-color: white;
+    color: black;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+
+#Q2A1, #Q2A3 {
+    font-family: "Verdana", San-serif;
+    background-color: black;
+    color: white;
+    display: block;
+    margin-bottom: 1em;
+  padding: 2em;
+}
+
+
+#Q2A2, #Q2A4 {
+    font-family: "Verdana", San-serif;
+    background-color: white;
+    color: black;
+    margin-bottom: 1em;
+    padding: 2em;
+}

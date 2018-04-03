@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Crazy Ranch</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- Link to Css file-->
+    <link rel="stylesheet" type='text/css' href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!--script
+    <script src='js/jquery-1.6.1.min.js'></script>
+    <script src="js/modernizr.custom.62074.js"></script>
+    <script src='js/respond.min.js'></script> -->
+    <script src="jsscript.js"></script>
+    
+</head>
+<body>
+    <h1> Volunteering @ Crazy Farm</h1>
+    <!--Heading site navigation bar
+    <div class="topnav" id="myTopnav">
+        <a id='clogo' href="index.html"><img src='images/Logo.png' width='200' height='200' alt='logo'></a>
+        <a href="aboutus.html">About Us</a>
+        <a href="ourfood.html"> Our Food </a>
+        <a href="contactus.html"> Contact Us</a>
+        <a href="faq.html"> FAQ </a>
+        <a href="locateus.html"> Locate Us</a>
+        <a href="login.html">Login</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>-->
+    <!-- form-->
+    <form id='formbg' action='result.html'>
+        <fieldset class='Contactinformation'>
+            <legend>Contact Information</legend>
+
+            <label for='firstNameinput'> First name </label>
+            <input type="text" name="firstName" value="First Name" id='firstNameinput' required>
+
+            <label for='Surnameinput'>Surname:</label>
+            <input type="text" name="Surname" value="" id='Surnameinput'><br>
+            <label for="date">Date:</label>
+            <input id="date" type="date"><br />
+
+            Prefered Contact Method
+            <input list='Contact' required>
+
+            <datalist id='Contact' onclick='show()'>
+                <option class='QQ' value='QQ'> QQ</option>
+                <option class='Wechat' value='wechat'> Wechat </option>
+                <option class='hp' value='Call'> Call
+            </datalist> <br>
+
+        </fieldset>
+
+        <fieldset class='feedback'>
+            <legend> Feedbacks or Comments</legend>
+            <textarea id='textbox' name='message ' rows='20' cols='100'></textarea>
+            <button id='button' onclick="checkFields()">submit</button>
+        </fieldset>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+</body>
+</html>

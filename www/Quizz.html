@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <title>Crazy Ranch</title>
+    <meta charset="utf-8"
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- Link to Css file-->
+    <link rel="stylesheet" type='text/css' href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="land.html">Home</a>
+                  <a href="aboutus/html">About us</a>  
+                <a href="fermentation.html">Fermentation</a>
+                <a href="plants.html">Plants</a>
+                <a href="animal.html">Animal</a>
+                <a href="Quizz.html">Quizz</a>
+                <a href="contactus.html">Contact</a>
+        </div>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+       <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+
+    <h1 id="bigTitle">Quizz</h1>
+
+    <div id="qnTime">
+        <div id="qnsloh">
+        <H1 id=" Question1" <!--time out not working onload ="setTimeout(myFunction,10000)"--> >疯狂农庄是个什么样的农场?? </H1>
+        <button id='Q1A1' onclick="falseFunction()" > 有机农场</button>
+        <button id='Q1A2' onclick="falseFunction()"> 有责任性的农场</button>
+        <button id='Q1A3' onclick="falseFunction()">  可持续性的农场</button>
+        <button id='Q1A4' onclick="trueFunction()"> 以上都是</button>
+        </div>
+        <!-- <p id="result" onload="newQn2()"></p>-->
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- english version
+    <H1 id=" Question1">What kind of farm is Crazy Ranch?? </H1>
+     <button id='Q1A1' onclick="falseFunction()", onclick=newQn2> Organic farm</button>
+     <button id='Q1A2' onclick="falseFunction()"> Responbsible farm</button>
+     <button id='Q1A3' onclick="falseFunction()">  Sustainable Farm</button>
+     <button id='Q1A4' onclick="trueFunction()"> All of the above</button>-->
+        <!--
+    <H1 id=" Question2">How does Crazy Ranch remove pest that may harm their crops?? </H1>
+    <button id='Q2A1' onclick="falseFunction()">Using pesticides</button>
+    <button id='Q2A2' onclick="falseFunction()">胡妈妈remove the pests</button>
+    <button id='Q2A3' onclick="falseFunction()"> using light to attract the insect before using electricity to kill them</button>
+    <button id='Q2A4' onclick="trueFunction()"> none of the above</button>
+       -->
+        <!--
+    <H1 id=" Question2">疯狂农场是如何把害虫·给去除的？</H1>
+    <button id='Q2A1' onclick="falseFunction()">用杀虫剂</button>
+    <button id='Q2A2' onclick="falseFunction()">胡妈妈自己去除</button>
+    <button id='Q2A3' onclick="trueFunction()">用灯以引害虫然后以电杀死害虫</button>
+    <button id='Q2A4' onclick="falseFunction()"> 全都不是</button>
+    <p id="result"></p>
+        -->
+        <!--
+    <H1 id=" Question1">What kind of farm is Crazy Ranch?? </H1>
+    <button id='Q3A1' onclick="myQuizzFunction()"> Organic farm</button>
+    <button id='Q3A2' onclick="myQuizzFunction()"> Responbsible farm</button>
+    <button id='Q3A3' onclick="myQuizzFunction()">  Sustainable Farm</button>
+    <button id='Q3A4' onclick="trueFunction()"> All of the above</button>
+    <p id="result"></p>
+        -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
